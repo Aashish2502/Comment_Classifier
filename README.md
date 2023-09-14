@@ -2,21 +2,21 @@
 Classification of comments into toxic or non-toxic and additional toxicity subtype attributes like identity attack, threat, insult, etc.
 
 # Description
-The dataset contains text comments collected from social media posts and, the target toxicity and additional toxicity subtype attributes which are rated as continuous values between 0 and 1. The dataset contains around 18 lakhs data points and around 4 lakhs data points were used to perform the model training and one lakh data points were used to test the models.
+The dataset contains text comments collected from social media posts and, the target toxicity and additional toxicity subtype attributes which are rated as continuous values between 0 and 1. The dataset contains around 18 lakh data points and around 4 lakhs data points were used to perform the model training and one lakh data points were used to test the models.
 - The dataset used for the project can be found [here](https://www.kaggle.com/fedesoriano/traffic-prediction-dataset).
 
 # Getting started
 ## Dependencies 
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-- Sklearn
-- Pickle
-- NLTK
-- Wordcloud
+- `Pandas`
+- `Numpy`
+- `Matplotlib`
+- `Seaborn`
+- `Sklearn`
+- `Pickle`
+- `NLTK`
+- `Wordcloud`
 
-## Machine learning Classifiers used
+## Machine learning Classifiers 
  **Multinomial Naive Bayes**
  
  
@@ -38,10 +38,11 @@ Logistic Regression is a classification system based on Machine Learning. It’s
 We have compared the four different Machine Learning models (Random forest, Linear SVC, MULTINOMIAL Naive Bayes,
 XG Boost). For these models, along with accuracy, measures like precision, recall, F1-score were compared.
 
-## Contributors
-- Naikawadi Shivaprasad (B20AI057)
-- Neerukonda Venkata Srinivas (B20CS037)
-- Sabavath Purya (B20EE054)
+## References
+- [](https://github.com/jayspeidell/ToxicCommentClassification-/blob/master/ToxicComments_EDA.ipynb)
+- [](https://www.analyticsvidhya.com/blog/2021/12/different-methods-for-calculating-sentiment-score-of-text/)
+- [](https://saejournal.com/wp-content/uploads/2021/07/Personality-Prediction-Using-Machine-Learning.pdf)
+- [](http://scikit-learn.org/stable/modules/generated/sklearn.naive)
 
 
 
